@@ -15,19 +15,19 @@ namespace ConfigViewer.ViewModels
         public string Name
         {
             get => _name;
-            private set => SetProperty(ref _name, value);
+            set => SetProperty(ref _name, value);
         }
 
         public string Version
         {
             get => _version;
-            private set => SetProperty(ref _version, value);
+            set => SetProperty(ref _version, value);
         }
 
         public string[] Items
         {
             get => _items;
-            private set => SetProperty(ref _items, value);
+            set => SetProperty(ref _items, value);
         }
 
         public MainWindowViewModel(string configPath)
